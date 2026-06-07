@@ -10,10 +10,10 @@ import {
 
 export function HomePage() {
   return (
-    <div className="mx-auto w-full max-w-2xl px-4 py-8 sm:px-6 sm:py-12">
+    <div className="mx-auto w-full max-w-2xl px-4 pt-2 pb-8 sm:px-6 sm:pt-4 sm:pb-12">
       <Header />
 
-      <Tabs defaultValue="booking" className="mt-8 sm:mt-10">
+      <Tabs defaultValue="booking" className="mt-2 sm:mt-2">
         <TabsList>
           <TabsTrigger value="booking">Medicine Booking</TabsTrigger>
           <TabsTrigger value="query">Medical Query</TabsTrigger>
